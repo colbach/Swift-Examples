@@ -12,8 +12,6 @@
 		BA60E43E1D13FDF400B07F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA60E43C1D13FDF400B07F0A /* Main.storyboard */; };
 		BA60E4401D13FDF500B07F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA60E43F1D13FDF500B07F0A /* Assets.xcassets */; };
 		BA60E4431D13FDF500B07F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA60E4411D13FDF500B07F0A /* LaunchScreen.storyboard */; };
-		BA60E44E1D13FDF500B07F0A /* TableviewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60E44D1D13FDF500B07F0A /* TableviewTestTests.swift */; };
-		BA60E4591D13FDF500B07F0A /* TableviewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60E4581D13FDF500B07F0A /* TableviewTestUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		BA60E4421D13FDF500B07F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA60E4441D13FDF500B07F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA60E4491D13FDF500B07F0A /* TableViewTest.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTest.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA60E44D1D13FDF500B07F0A /* TableviewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewTestTests.swift; sourceTree = "<group>"; };
-		BA60E44F1D13FDF500B07F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA60E4541D13FDF500B07F0A /* TableViewTest.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTest.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA60E4581D13FDF500B07F0A /* TableviewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewTestUITests.swift; sourceTree = "<group>"; };
-		BA60E45A1D13FDF500B07F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				BA60E4371D13FDF400B07F0A /* TableViewTest */,
-				BA60E44C1D13FDF500B07F0A /* TableviewTestTests */,
-				BA60E4571D13FDF500B07F0A /* TableviewTestUITests */,
 				BA60E4361D13FDF400B07F0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,24 +98,6 @@
 			);
 			name = TableViewTest;
 			path = TableviewTest;
-			sourceTree = "<group>";
-		};
-		BA60E44C1D13FDF500B07F0A /* TableviewTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				BA60E44D1D13FDF500B07F0A /* TableviewTestTests.swift */,
-				BA60E44F1D13FDF500B07F0A /* Info.plist */,
-			);
-			path = TableviewTestTests;
-			sourceTree = "<group>";
-		};
-		BA60E4571D13FDF500B07F0A /* TableviewTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BA60E4581D13FDF500B07F0A /* TableviewTestUITests.swift */,
-				BA60E45A1D13FDF500B07F0A /* Info.plist */,
-			);
-			path = TableviewTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +240,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA60E44E1D13FDF500B07F0A /* TableviewTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA60E4591D13FDF500B07F0A /* TableviewTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
